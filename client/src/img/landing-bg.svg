@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50" />
+      <stop offset="100%" stop-color="#4a6fa5" />
+    </linearGradient>
+    <radialGradient id="overlay" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.1)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1920" height="1080" fill="url(#bg-gradient)" />
+  
+  <!-- Overlay pattern -->
+  <rect width="1920" height="1080" fill="url(#overlay)" />
+  
+  <!-- Abstract pattern elements -->
+  <g opacity="0.05">
+    <!-- Grid pattern -->
+    <path d="M0,0 L1920,0 L1920,1080 L0,1080 Z" stroke="#ffffff" stroke-width="1" fill="none" />
+    
+    <!-- Horizontal lines -->
+    <line x1="0" y1="270" x2="1920" y2="270" stroke="#ffffff" stroke-width="1" />
+    <line x1="0" y1="540" x2="1920" y2="540" stroke="#ffffff" stroke-width="1" />
+    <line x1="0" y1="810" x2="1920" y2="810" stroke="#ffffff" stroke-width="1" />
+    
+    <!-- Vertical lines -->
+    <line x1="480" y1="0" x2="480" y2="1080" stroke="#ffffff" stroke-width="1" />
+    <line x1="960" y1="0" x2="960" y2="1080" stroke="#ffffff" stroke-width="1" />
+    <line x1="1440" y1="0" x2="1440" y2="1080" stroke="#ffffff" stroke-width="1" />
+  </g>
+  
+  <!-- Floating document icons -->
+  <g opacity="0.2">
+    <!-- Document icon 1 -->
+    <g transform="translate(300, 200)">
+      <rect x="0" y="0" width="60" height="80" rx="5" fill="#ffffff" />
+      <line x1="10" y1="20" x2="50" y2="20" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="30" x2="50" y2="30" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="40" x2="40" y2="40" stroke="#4a6fa5" stroke-width="3" />
+    </g>
+    
+    <!-- Document icon 2 -->
+    <g transform="translate(1200, 300)">
+      <rect x="0" y="0" width="60" height="80" rx="5" fill="#ffffff" />
+      <line x1="10" y1="20" x2="50" y2="20" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="30" x2="50" y2="30" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="40" x2="40" y2="40" stroke="#4a6fa5" stroke-width="3" />
+    </g>
+    
+    <!-- Document icon 3 -->
+    <g transform="translate(800, 700)">
+      <rect x="0" y="0" width="60" height="80" rx="5" fill="#ffffff" />
+      <line x1="10" y1="20" x2="50" y2="20" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="30" x2="50" y2="30" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="40" x2="40" y2="40" stroke="#4a6fa5" stroke-width="3" />
+    </g>
+    
+    <!-- Document icon 4 -->
+    <g transform="translate(1600, 800)">
+      <rect x="0" y="0" width="60" height="80" rx="5" fill="#ffffff" />
+      <line x1="10" y1="20" x2="50" y2="20" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="30" x2="50" y2="30" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="40" x2="40" y2="40" stroke="#4a6fa5" stroke-width="3" />
+    </g>
+    
+    <!-- Document icon 5 -->
+    <g transform="translate(500, 900)">
+      <rect x="0" y="0" width="60" height="80" rx="5" fill="#ffffff" />
+      <line x1="10" y1="20" x2="50" y2="20" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="30" x2="50" y2="30" stroke="#4a6fa5" stroke-width="3" />
+      <line x1="10" y1="40" x2="40" y2="40" stroke="#4a6fa5" stroke-width="3" />
+    </g>
+  </g>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1" />
+  <circle cx="1800" cy="900" r="80" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1" />
+  <circle cx="500" cy="500" r="100" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1" />
+  <circle cx="1300" cy="300" r="70" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.1" />
+  
+  <!-- Large central logo watermark -->
+  <g transform="translate(960, 540)" opacity="0.05">
+    <rect width="200" height="200" rx="40" x="-100" y="-100" fill="#ffffff" />
+    <text x="0" y="30" font-family="Arial" font-size="150" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="#4a6fa5">Q</text>
+    <path d="M40 40 L80 80" stroke="#4a6fa5" stroke-width="15" stroke-linecap="round" />
+  </g>
+</svg>
